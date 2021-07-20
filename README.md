@@ -3,4 +3,4 @@
 🌱 I’m currently learning Java/Kotlin 
 📫 How to reach me oliverdev22@gmail.com
 
-This project was designed to help the user in their daily lives.
+This project was designed to help the user in their daily lives, Here's a small sample of my notepad app.
