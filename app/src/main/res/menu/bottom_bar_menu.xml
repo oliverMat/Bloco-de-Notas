@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bar_categ"
+        android:icon="@drawable/ic_pasta"
+        android:title="@string/novaCategoria"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bar_lixo"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/excluir"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bar_config"
+        android:icon="@drawable/ic_config"
+        android:title="@string/configuracao"
+        app:showAsAction="ifRoom" />
+
+</menu>

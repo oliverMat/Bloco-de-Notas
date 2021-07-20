@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.oliver.notepad">
+
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" tools:ignore="ScopedStorage"/>
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="br.oliver.notepad.activity.SenhaActivity"
+            android:parentActivityName="br.oliver.notepad.activity.CategoriaActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="br.oliver.notepad.activity.NotasExcluidosActivity"
+            android:parentActivityName="br.oliver.notepad.activity.CategoriaActivity" />
+        <activity android:name="br.oliver.notepad.activity.CategoriaActivity"
+            android:windowSoftInputMode="adjustPan|adjustResize"/>
+        <activity
+            android:name="br.oliver.notepad.activity.EditarNotaActivity"
+            android:parentActivityName="br.oliver.notepad.activity.CategoriaActivity" />
+        <activity android:name="br.oliver.notepad.activity.AddNotaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.oliver.notepad.activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+
+    </application>
+
+</manifest>

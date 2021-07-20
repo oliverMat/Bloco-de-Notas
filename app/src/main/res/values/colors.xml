@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e1f21</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#88001b</color>
+
+    <color name="colorBranco">#FFFFFF</color>
+    <color name="colorBrancoGelo">#E4E4E4</color>
+    <color name="colorCinza">#424242</color>
+    <color name="colorCinza2">#535353</color>
+    <color name="colorTransparente">#77000000</color>
+    <color name="colorSnackBar">#333333</color>
+
+
+
+</resources>

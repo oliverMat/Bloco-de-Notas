@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId ="addGravacao"
+        android:enabled ="true"
+        android:icon = "@drawable/ic_mic_shortcuts"
+        android:shortcutShortLabel = "@string/nova_gravacao_shortcut"
+        android:shortcutLongLabel = "@string/nova_gravacao_shortcut"
+        tools:targetApi="n_mr1">
+
+        <intent
+            android:action = "android.intent.action.VIEW"
+            android:targetPackage = "br.oliver.mark4"
+            android:targetClass = "br.oliver.mark4.activity.AddAudioActivity" />
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId ="addDesenho"
+        android:enabled ="true"
+        android:icon = "@drawable/ic_landscape_vermelho"
+        android:shortcutShortLabel = "@string/novo_desenho_shortcut"
+        android:shortcutLongLabel = "@string/novo_desenho_shortcut"
+        tools:targetApi="n_mr1">
+
+        <intent
+            android:action = "android.intent.action.VIEW"
+            android:targetPackage = "br.oliver.mark4"
+            android:targetClass = "br.oliver.mark4.activity.AddImagemActivity" />
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId ="addTexto"
+        android:enabled ="true"
+        android:icon = "@drawable/ic_create_shortcuts"
+        android:shortcutShortLabel = "@string/novo_texto_shortcut"
+        android:shortcutLongLabel = "@string/novo_texto_shortcut"
+        tools:targetApi="n_mr1">
+
+        <intent
+            android:action = "android.intent.action.VIEW"
+            android:targetPackage = "br.oliver.mark4"
+            android:targetClass = "br.oliver.mark4.activity.AddNotaActivity" />
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId ="addScanner"
+        android:enabled ="true"
+        android:icon = "@drawable/ic_document_scanner_vermelho"
+        android:shortcutShortLabel = "@string/scannerTexto"
+        android:shortcutLongLabel = "@string/scannerTexto"
+        tools:targetApi="n_mr1">
+
+        <intent
+            android:action = "android.intent.action.VIEW"
+            android:targetPackage = "br.oliver.mark4"
+            android:targetClass = "br.oliver.mark4.activity.ScannerActivity" />
+
+    </shortcut>
+
+</shortcuts>

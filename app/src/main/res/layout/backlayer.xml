@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/bt_Favorito"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/fundo_redondo_preto"
+            android:contentDescription="@null"
+            android:drawablePadding="15dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/ic_favorite_branco"
+            android:textAlignment="center"
+            android:textColor="@color/colorBranco"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/bt_exibirTodos"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/fundo_redondo_preto"
+            android:contentDescription="@null"
+            android:drawablePadding="15dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/ic_todos"
+            android:textAlignment="center"
+            android:textColor="@color/colorBranco" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_Categoria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="10dp"
+        android:fillViewport="false"
+        android:requiresFadingEdge="vertical">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

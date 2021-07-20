@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/back_categoria"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/fundo_redondo_preto"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tV_Padrao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/padrao"
+        android:textColor="@color/colorBranco"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/nomeTabela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLength="15"
+        android:text="@string/minhaNota"
+        android:textColor="@color/colorBranco"
+        android:textSize="16sp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

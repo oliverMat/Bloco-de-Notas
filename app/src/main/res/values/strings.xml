@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="categoria">Category</string>
+    <string name="mensagemPadrao">Standard category, cannot be modified.</string>
+    <string name="minhaNota">My grade</string>
+    <string name="padrao">Standarde</string>
+    <string name="deseJaExcluir">Want to delete:</string>
+    <string name="renomear">Rename</string>
+    <string name="renomeieAsuaCategoria">Rename your category</string>
+    <string name="alterar">Change</string>
+    <string name="atualizado">Updated</string>
+    <string name="algoDeuErrado">Something went wrong</string>
+    <string name="categoriaJaExiste">Category already exists</string>
+    <string name="nadaAqui">Nothing here</string>
+    <string name="cancelar">Cancel</string>
+    <string name="enviar">Submit</string>
+    <string name="sim">Yes</string>
+    <string name="nao">Not</string>
+    <string name="excluido">Excluded</string>
+    <string name="categoriaCheiaNaoPodeSerExcluida">Full category, cannot be excluded</string>
+    <string name="buscarNotas">Search</string>
+    <string name="bemVindo">Welcome</string>
+    <string name="novaCategoria">New Category</string>
+    <string name="titulo">Title</string>
+    <string name="descricao">description</string>
+    <string name="escolhaSuaCor">Choose your color</string>
+    <string name="salvaEm">Saved to</string>
+    <string name="descartaraNota">Discard the note ?</string>
+    <string name="tamanhoDaLetra">Font Size</string>
+    <string name="grande">Big</string>
+    <string name="medio">Medium</string>
+    <string name="normal">Normal</string>
+    <string name="pequeno">Little</string>
+    <string name="imagem">Image</string>
+    <string name="texto">Text</string>
+    <string name="audio">Audio</string>
+    <string name="permissoesNegadas">Permission Denied</string>
+    <string name="textoPermissao">To use this function, it is necessary to accept the permissions</string>
+    <string name="desejaRegravar">Do you want to re-record ?</string>
+    <string name="gravando">Recording</string>
+    <string name="pareceQueAudioNaoExiste">It seems that the audio does not exist anymore</string>
+    <string name="movidoLixeira">Moved to trash</string>
+    <string name="tituloVazio">Empty field</string>
+    <string name="senhaRemovida">Password removed</string>
+    <string name="desejaRemoverSenha">Do you want to remove the password ?</string>
+    <string name="categoriaAtual">Current Category</string>
+    <string name="movidoPara">Moved to </string>
+    <string name="moverPara">Move to: </string>
+    <string name="excluir"> Delete </string>
+    <string name="pareceQueImagemNaoExiste">It seems that the image no longer exists</string>
+    <string name="digiteAqui">Type here</string>
+    <string name="restaura">to restore </string>
+    <string name="estaOk">Is good </string>
+
+    <string name="salvar">To save</string>
+    <string name="cor">Color</string>
+    <string name="moverPasta">Move</string>
+    <string name="senha">Password</string>
+    <string name="compartilhar">To share</string>
+    <string name="exportarPdf">Export to PDF or PRINT</string>
+    <string name="exportarWord">Export in Word</string>
+    <string name="moverParaLixeira">Move to trash</string>
+    <string name="configuracao">Configuration</string>
+
+    <string name="personalizacao">Customization</string>
+    <string name="corNota">Note color</string>
+    <string name="contatos">Contacts</string>
+    <string name="suporte">Support</string>
+    <string name="feedback">Give a suggestion</string>
+    <string name="avaliar">To evaluate</string>
+    <string name="versao">Version:</string>
+
+    <string name="lixeira">Trash can</string>
+    <string name="lixeiraVazia">Empty trash can</string>
+
+    <string name="novaSenha">New password</string>
+    <string name="digiteSenha">Type the password</string>
+    <string name="redigiteSenha">Retype password</string>
+    <string name="campoVazio">Empty field</string>
+    <string name="senhaErrada">Wrong password</string>
+    <string name="senhasDiferentes">Different passwords</string>
+    <string name="autenticaçãoBiometria">Biometrics authentication</string>
+    <string name="paraAcessarDigital">To access use the digital</string>
+    <string name="senhaNumérica">Numeric password</string>
+
+    <string name="tituloAvaliacao">I hope you like it</string>
+    <string name="mensagemAvaliacao">Leave your rating, so we can further improve the Note.</string>
+    <string name="nuncaAvaliar">Never evaluate</string>
+    <string name="depoisAvaliar">Later</string>
+    <string name="avaliarAgora">Come on</string>
+
+
+    <string name="desejaRotacionarTela">Do you want to rotate the screen ?</string>
+    <string name="edicaoAtualSeraPerdida">Current edition will be lost.</string>
+    <string name="girar">To spin</string>
+
+
+    <string name="title_activity_add_sub">ScrollingActivity</string>
+
+    <string name="novo_texto_shortcut">Text</string>
+    <string name="novo_desenho_shortcut">Image</string>
+    <string name="nova_gravacao_shortcut">Recording</string>
+
+    <string name="proximo">Next</string>
+    <string name="acessar">Access</string>
+    <string name="trancar">To lock</string>
+
+    <string name="gravacaoPausada">Recording Paused</string>
+    <string name="gravandoAudio">Recording Audio</string>
+
+    <string name="todasNotas">All</string>
+    <string name="favoritos">Favorite</string>
+
+    <string name="marcarfavoritos">Marked favorites</string>
+    <string name="desmarcarfavoritos">Deselect favorite</string>
+
+    <string name="membro">Become a member Note</string>
+
+    <string name="naoMembro">Not a member yet</string>
+
+    <string name="membroNote">You are a Note Member</string>
+
+    <string name="playAuto">Auto Play (Recording)</string>
+
+    <string name="status">Status:  </string>
+    <string name="infoAnuncio">Encourages more news and removes ads</string>
+
+    <string name="textoDetectado">Text not detected</string>
+    <string name="lerImagem">Read Image</string>
+    <string name="textoCopiado">Copied text</string>
+    <string name="infoScanner">• Scanner only reads form letters and sharp images</string>
+
+    <string name="textoSimples">• Simple: plain text</string>
+    <string name="textoPdf">• Pdf: formatted text</string>
+
+    <string name="textScaneado"> Scanned texts</string>
+    <string name="escolhaImg">Text scanner \n Choose an image</string>
+
+    <string name="funcaoEsperi">Experimental function</string>
+
+    <string name="scannerTexto">Text Scanner</string>
+
+    <string name="mensagEnviada">FeedBack sent</string>
+
+    <string name="audioDb">0.0 Db</string>
+
+    <string name="ouvirOpniao">We would like to hear your opinion.</string>
+    <string name="perguntaOpniao">- Is there anything that could be better? \n- Is there a function that I would like to have? \n Your answer will not go to the google and will be anonymous \n Thank you very much.</string>
+
+    <string name="salvoEmDownload">saved to download</string>
+
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+
+
+
+</resources>

@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="categoria">Categoria</string>
+    <string name="mensagemPadrao">Categoria Padrao, não pode ser modificada.</string>
+    <string name="minhaNota">Minha Nota</string>
+    <string name="padrao">Padrao</string>
+    <string name="deseJaExcluir">Deseja excluir:</string>
+    <string name="renomear">Renomear</string>
+    <string name="renomeieAsuaCategoria">Renomeie a sua categoria</string>
+    <string name="alterar">Alterar</string>
+    <string name="atualizado">Atualizado</string>
+    <string name="algoDeuErrado">Algo deu errado</string>
+    <string name="categoriaJaExiste">Categoria ja existe</string>
+    <string name="nadaAqui">Nada aqui</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="enviar">Enviar</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="excluido">Excluida</string>
+    <string name="categoriaCheiaNaoPodeSerExcluida">Categoria cheia, não pode ser excluida</string>
+    <string name="buscarNotas">Pesquisa</string>
+    <string name="bemVindo">Bem-vindo</string>
+    <string name="novaCategoria">Nova Categoria</string>
+    <string name="titulo">Titulo</string>
+    <string name="descricao">Descrição</string>
+    <string name="escolhaSuaCor">Escolha sua cor</string>
+    <string name="salvaEm">Salva em</string>
+    <string name="descartaraNota">Descartar a nota ?</string>
+    <string name="tamanhoDaLetra">Tamanho da Letra</string>
+    <string name="grande">Grande</string>
+    <string name="medio">Medio</string>
+    <string name="normal">Normal</string>
+    <string name="pequeno">Pequeno</string>
+    <string name="imagem">Imagem</string>
+    <string name="texto">Texto</string>
+    <string name="audio">Audio</string>
+    <string name="permissoesNegadas">Permissoes Negadas</string>
+    <string name="textoPermissao">Para utilizar esta funcao e necessario aceitar as permissoes</string>
+    <string name="desejaRegravar">Deseja regravar ?</string>
+    <string name="gravando">Gravando</string>
+    <string name="pareceQueAudioNaoExiste">Parece que o audio não existe mais</string>
+    <string name="movidoLixeira">Movido para lixeira</string>
+    <string name="tituloVazio">Campo vazio</string>
+    <string name="senhaRemovida">Senha removida</string>
+    <string name="desejaRemoverSenha">Deseja remover a senha ?</string>
+    <string name="categoriaAtual">Categoria Atual</string>
+    <string name="movidoPara">Movido para </string>
+    <string name="moverPara">Mover para: </string>
+    <string name="excluir"> Excluir </string>
+    <string name="pareceQueImagemNaoExiste">Parece que a imagem não existe mais</string>
+    <string name="digiteAqui">Digite aqui</string>
+    <string name="restaura">Restaurar </string>
+    <string name="estaOk">Está bom </string>
+
+    <string name="salvar">Salvar</string>
+    <string name="cor">Cor</string>
+    <string name="moverPasta">Mover</string>
+    <string name="senha">Senha</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="exportarPdf">Exportar em PDF ou IMPRIMIR</string>
+    <string name="exportarWord">Exportar em Word</string>
+    <string name="moverParaLixeira">Mover para lixeira</string>
+    <string name="configuracao">Configuração</string>
+
+    <string name="personalizacao">Personalização</string>
+    <string name="corNota">Cor nota</string>
+    <string name="contatos">Contatos</string>
+    <string name="suporte">Suporte</string>
+    <string name="feedback">Dar uma sugestão</string>
+    <string name="avaliar">Avaliar</string>
+    <string name="versao">Versão:</string>
+
+    <string name="lixeira">Lixeira</string>
+    <string name="lixeiraVazia">Lixeira vazia</string>
+
+    <string name="novaSenha">Nova senha</string>
+    <string name="digiteSenha">Digite a senha</string>
+    <string name="redigiteSenha">Redigite à senha</string>
+    <string name="campoVazio">Campo vazio</string>
+    <string name="senhaErrada">Senha errada</string>
+    <string name="senhasDiferentes">Senhas diferentes</string>
+    <string name="autenticaçãoBiometria">Autenticação biometria</string>
+    <string name="paraAcessarDigital">Para acessar use a digital</string>
+    <string name="senhaNumérica">Senha numérica</string>
+
+    <string name="tituloAvaliacao">Espero que esteja gostando</string>
+    <string name="mensagemAvaliacao">Deixe a sua avaliacao, assim podemos melhorar ainda mais o Note.</string>
+    <string name="nuncaAvaliar">Nunca avaliar</string>
+    <string name="depoisAvaliar">Mais tarde</string>
+    <string name="avaliarAgora">Vamos là</string>
+
+
+    <string name="desejaRotacionarTela">Deseja rotacionar a tela ?</string>
+    <string name="edicaoAtualSeraPerdida">Edição atual sera perdida.</string>
+    <string name="girar">Girar</string>
+
+
+    <string name="title_activity_add_sub">ScrollingActivity</string>
+
+    <string name="novo_texto_shortcut">Texto</string>
+    <string name="novo_desenho_shortcut">Imagem</string>
+    <string name="nova_gravacao_shortcut">Gravaçao</string>
+
+    <string name="proximo">Próximo</string>
+    <string name="acessar">Acessar</string>
+    <string name="trancar">Trancar</string>
+
+    <string name="gravacaoPausada">Gravacao Pausada</string>
+    <string name="gravandoAudio">Gravando Audio</string>
+
+    <string name="todasNotas">Todos</string>
+    <string name="favoritos">Favoritos</string>
+
+    <string name="marcarfavoritos">Marcado favorito</string>
+    <string name="desmarcarfavoritos">Desmarcado favorito</string>
+
+    <string name="membro">Virar membro Note</string>
+
+    <string name="naoMembro">Ainda não é membro</string>
+
+    <string name="membroNote">Você é um Membro Note</string>
+
+    <string name="playAuto">Play automático (Gravacao)</string>
+
+    <string name="status">Status:  </string>
+    <string name="infoAnuncio">Incentiva a trazer mais novidades e remove anúncios</string>
+
+    <string name="textoDetectado">Texto não detectado</string>
+    <string name="lerImagem">Ler Imagem</string>
+    <string name="textoCopiado">Texto copiado</string>
+    <string name="infoScanner">• Scanner so ler letras de forma e imagens nitidas</string>
+
+    <string name="textoSimples">• Simples: texto sem formatacao</string>
+    <string name="textoPdf">• Pdf: texto formatado</string>
+
+    <string name="textScaneado"> Textos scaneados</string>
+    <string name="escolhaImg">Scanner de texto \n Escolha uma imagem</string>
+
+    <string name="funcaoEsperi">Funcao esperimental</string>
+
+    <string name="scannerTexto">Scanner Texto</string>
+
+    <string name="mensagEnviada">FeedBack enviado</string>
+
+    <string name="audioDb">0.0 Db</string>
+
+    <string name="ouvirOpniao">Gostaríamos de ouvir sua opinião.</string>
+    <string name="perguntaOpniao">- Existe algo que poderia ser melhor? \n- Existe alguma função que gostaria que tivesse? \n A sua resposta não ira pra google e sera anonima \n Muito obrigado. </string>
+
+    <string name="salvoEmDownload">salvo em download</string>
+
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+
+
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_Categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/Toolbar">
+
+
+            <TextView
+                android:id="@+id/tv_Toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    <com.roacult.backdrop.BackdropLayout
+        android:id="@+id/backdropcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:animationDuration="270"
+        app:back_layout="@id/includedBack"
+        app:closeDrawable="@drawable/ic_close"
+        app:disable_when_open="false"
+        app:front_header_radius="10dp"
+        app:front_layout="@id/includedFront"
+        app:menuDrawable="@drawable/ic_menu"
+        app:peekHeight="104dp"
+        app:toolbarId="@id/toolbar_Categoria">
+
+        <LinearLayout
+            android:id="@+id/acoesCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="55.3dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/fundo_redondo_branco_top"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/dialog_addNota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@null"
+                    app:srcCompat="@drawable/ic_create_shortcuts" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dialog_scanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@null"
+                    app:srcCompat="@drawable/ic_document_scanner_vermelho" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dialog_addAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@null"
+                    app:srcCompat="@drawable/ic_mic_shortcuts" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dialog_addImagem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@null"
+                    app:srcCompat="@drawable/ic_landscape_vermelho" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/includedBack"
+            layout="@layout/backlayer" />
+
+        <include
+            android:id="@+id/includedFront"
+            layout="@layout/frontlayer" />
+
+
+    </com.roacult.backdrop.BackdropLayout>
+
+
+</LinearLayout>
