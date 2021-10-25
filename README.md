@@ -1,6 +1,2 @@
-👋 Hi, I’m @oliverMat 
-👀 I'm interested in helping people who are starting to program like me. 
-🌱 I’m currently learning Java/Kotlin 
-📫 How to reach me oliverdev22@gmail.com
-
-This project was designed to help the user in their daily lives, Here's a small sample of my notepad app.
+App criado para ajudar o dia a dia do usuario.
+Disponivel na Google Play: https://play.google.com/store/apps/details?id=br.oliver.mark4&hl=pt-BR 
